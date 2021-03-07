@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    text-align: center;
+    margin-top: 10px;
+}
+
+header{
+    text-align: center;
+}
+
+article{
+    text-align: center;
+}
+
+.imóveis{
+    display: inline-grid;
+    align-items: center;
+}
+
+.banner{
+    width: 100%;
+    background-image: url(banner.png);
+    height: 200px;
+    background-color: purple;
+    background-position: center;
+}
+
+footer{
+    text-align: center;
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
